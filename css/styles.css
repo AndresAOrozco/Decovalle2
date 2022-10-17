@@ -176,6 +176,10 @@ h1 {
     height: 400px;
     width: 550px;
 }
+.img-fluid-productos{
+    height: 400px;
+    width: 550px;
+}
 
 
 @media screen and (max-width: 2000px){
@@ -183,17 +187,32 @@ h1 {
         height: 350px;
         width: 450px;
     }
-    p{
+    .banner p{
         padding-right: 7rem;
     }
+    .productos p{
+        padding-right: 1rem;
+    }
+    .img-fluid-productos{
+        height: 350px;
+        width: 450px;
+    }
+
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1400px){
     .img-fluid-banner{
         height: 350px;
         width: 450px;
     }
-    p{
-        padding-right: 5rem;
+        .banner p{
+        padding-right: 4rem;
+    }
+    .img-fluid-productos{
+        height: 350px;
+        width: 450px;
+    }
+    .productos p{
+        padding-right: 3rem;
     }
 }
 @media screen and (max-width: 992px){
@@ -201,9 +220,17 @@ h1 {
         height: 350px;
         width: 450px;
     }
-    p{
+    .banner p{
         padding-right: 2.5rem;
     }
+    .img-fluid-productos{
+        height: 350px;
+        width: 450px;
+    }
+    .productos p{
+        padding-right: 15rem;
+    }
+
 }
 
 @media screen and (max-width: 768px){
@@ -211,7 +238,18 @@ h1 {
         height: auto;
         width: auto;
     }
-    p{
+    .banner p{
         padding: 0
     }
+    .img-fluid-productos{
+        height: auto;
+        width: auto;
+    }
+    .productos p{
+        padding: 0;
+    }
 }
+section h2{
+    color: white;
+}
+
