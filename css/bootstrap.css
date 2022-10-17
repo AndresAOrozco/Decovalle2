@@ -7207,9 +7207,9 @@ textarea.form-control-lg {
   border-right: 0 !important;
 }
 
-.border-bottom {
+/* .border-bottom {
   border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
-}
+} */
 
 .border-bottom-0 {
   border-bottom: 0 !important;
@@ -7428,9 +7428,9 @@ textarea.form-control-lg {
   justify-content: flex-end !important;
 }
 
-.justify-content-center {
+/* .justify-content-center {
   justify-content: center !important;
-}
+} */
 
 .justify-content-between {
   justify-content: space-between !important;
@@ -9427,9 +9427,9 @@ textarea.form-control-lg {
   .justify-content-lg-center {
     justify-content: center !important;
   }
-  .justify-content-lg-between {
+  /* .justify-content-lg-between {
     justify-content: space-between !important;
-  }
+  } */
   .justify-content-lg-around {
     justify-content: space-around !important;
   }
