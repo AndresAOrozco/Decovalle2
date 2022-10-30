@@ -3,6 +3,9 @@
   color: black;
   transition: all 0.6s ease-in-out; }
 
+p {
+  font-weight: bold; }
+
 body {
   background-image: linear-gradient(black, white); }
 
@@ -34,6 +37,9 @@ h1 {
 .img-fluid-banner {
   height: 400px;
   width: 550px; }
+
+.nombreproducto {
+  color: white; }
 
 @media screen and (max-width: 2000px) {
   .img-fluid-banner {
@@ -90,6 +96,60 @@ section h2 {
   height: 400px;
   width: 550px; }
 
+.tituloproductos {
+  display: inline-block;
+  padding: 2rem 2rem 2rem 0;
+  color: whitesmoke;
+  background-color: grey;
+  margin-bottom: 2rem; }
+
 .img-fluid-testimonio {
   height: 400px;
   width: 550px; }
+
+.testimonio1 p, .nombre1 {
+  color: white; }
+
+.titulotestimonio {
+  display: inline-block;
+  padding: 2rem 2rem 2rem 0;
+  color: whitesmoke;
+  background-color: grey;
+  margin-bottom: 3rem; }
+
+.testimonio1 h3 {
+  color: white; }
+
+.titulocontacto {
+  display: inline-block;
+  padding: 2rem 2rem 2rem 0;
+  color: whitesmoke;
+  background-color: grey;
+  margin-bottom: 2rem; }
+
+.img-contacto {
+  height: 500px;
+  width: 575px;
+  margin-bottom: 3rem; }
+
+.form-button {
+  width: 15rem;
+  display: block;
+  margin: 1rem 0 1rem 0; }
+
+.form-item {
+  display: block;
+  width: 30rem;
+  margin: 1rem 0 1rem 0; }
+
+@media screen and (max-width: 700px) {
+  .img-contacto {
+    height: 300px;
+    width: 400px;
+    margin-bottom: 2rem; }
+  .form-item, .form-button {
+    width: 20rem; } }
+
+@media screen and (max-width: 374px) {
+  .form-item, .form-button {
+    width: 9rem; } }

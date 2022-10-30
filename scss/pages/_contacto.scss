@@ -1,0 +1,41 @@
+.titulocontacto{
+    display: inline-block;
+    padding: 2rem 2rem 2rem 0;
+    color: whitesmoke;
+    background-color: grey;
+    margin-bottom: 2rem;
+}
+
+.img-contacto{
+    height: 500px;
+    width: 575px;
+    margin-bottom: 3rem;
+}
+.form-button{
+    width: 15rem;
+    display: block;
+    margin: 1rem 0 1rem 0;
+}
+.form-item{
+    display: block;
+    width: 30rem;
+    margin: 1rem 0 1rem 0;
+}
+
+@media screen and (max-width: 700px) {
+    .img-contacto{
+        height: 300px;
+        width: 400px;
+        margin-bottom: 2rem;}
+
+    .form-item, .form-button{
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 374px) {
+
+    .form-item, .form-button{
+        width: 9rem;
+    }
+}
