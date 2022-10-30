@@ -1,0 +1,95 @@
+.nav-link:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.6s ease-in-out; }
+
+body {
+  background-image: linear-gradient(black, white); }
+
+h1 {
+  padding: 3rem 3rem 3rem 1.5rem;
+  color: white;
+  font-size: 1.5em; }
+
+.img-logo {
+  height: 5rem;
+  width: 10rem; }
+
+.marcas {
+  padding: 2rem 0 2rem 0; }
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-sm,
+.navbar > .container-md,
+.navbar > .container-lg,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem; }
+
+.img-fluid-banner {
+  height: 400px;
+  width: 550px; }
+
+@media screen and (max-width: 2000px) {
+  .img-fluid-banner {
+    height: 350px;
+    width: 450px; }
+  .banner p {
+    padding-right: 7rem; }
+  .productos p {
+    padding-right: 1rem; }
+  .img-fluid-productos {
+    height: 350px;
+    width: 450px; } }
+
+@media screen and (max-width: 1400px) {
+  .img-fluid-banner {
+    height: 350px;
+    width: 450px; }
+  .banner p {
+    padding-right: 4rem; }
+  .img-fluid-productos {
+    height: 350px;
+    width: 450px; }
+  .productos p {
+    padding-right: 3rem; } }
+
+@media screen and (max-width: 992px) {
+  .img-fluid-banner {
+    height: 350px;
+    width: 450px; }
+  .banner p {
+    padding-right: 2.5rem; }
+  .img-fluid-productos {
+    height: 350px;
+    width: 450px; }
+  .productos p {
+    padding-right: 15rem; } }
+
+@media screen and (max-width: 768px) {
+  .img-fluid-banner {
+    height: auto;
+    width: auto; }
+  .banner p {
+    padding: 0; }
+  .img-fluid-productos {
+    height: auto;
+    width: auto; }
+  .productos p {
+    padding: 0; } }
+
+section h2 {
+  color: white; }
+
+.img-fluid-productos {
+  height: 400px;
+  width: 550px; }
+
+.img-fluid-testimonio {
+  height: 400px;
+  width: 550px; }

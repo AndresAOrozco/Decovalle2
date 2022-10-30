@@ -1,7 +1,7 @@
 /* body{
     background-image: linear-gradient(black, rgb(94, 94, 94), white);
-}
-
+} */
+/*
 ul{
     display: flex;
    justify-content: space-evenly;
@@ -135,7 +135,9 @@ button{
     transition: all .5s ease-in-out;
 */
 
-.nav-link:hover{
+/* A partir de aca fue la entrega */
+
+/* .nav-link:hover{
     background-color: white;
     color: black;
     transition: all 0.6s ease-in-out;
@@ -251,5 +253,5 @@ h1 {
 }
 section h2{
     color: white;
-}
+} */
 
