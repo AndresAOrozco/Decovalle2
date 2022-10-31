@@ -153,3 +153,25 @@ section h2 {
 @media screen and (max-width: 374px) {
   .form-item, .form-button {
     width: 9rem; } }
+
+.horariodireccion {
+  margin-top: 6rem; }
+
+.footerubicacion {
+  margin-top: 3rem; }
+
+@media screen and (max-width: 1200px) {
+  .horariodireccion {
+    margin-top: 0; } }
+
+@media screen and (max-width: 768px) {
+  iframe {
+    width: 400px; } }
+
+@media screen and (max-width: 420px) {
+  iframe {
+    width: 350px; } }
+
+@media screen and (max-width: 370px) {
+  iframe {
+    width: 250px; } }
