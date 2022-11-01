@@ -35,6 +35,13 @@
 }
 }
 
+@media screen and (max-width: 500px) {
+
+    .form-item, .form-button{
+        width: 20rem;
+    }
+}
+
 @media screen and (max-width: 374px) {
 
     .form-item, .form-button{
