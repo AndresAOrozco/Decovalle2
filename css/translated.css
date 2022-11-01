@@ -107,7 +107,7 @@ section h2 {
   height: 400px;
   width: 550px; }
 
-.testimonio1 p, .nombre1 {
+.nombre1, .testimonio1 p {
   color: white; }
 
 .titulotestimonio {

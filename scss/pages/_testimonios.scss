@@ -1,18 +1,31 @@
-.img-fluid-testimonio{
-    height: 400px;
-    width: 550px;
-}
-.testimonio1 p, .nombre1{
-    color: white;
-}
-
-
-.titulotestimonio{
+@mixin titulotestimonio{
     display: inline-block;
     padding: 2rem 2rem 2rem 0;
     color: whitesmoke;
     background-color: grey;
     margin-bottom: 3rem;
+}
+
+@mixin sizes($width, $height)
+{
+    height: $height;
+    width: $width;
+}
+
+
+.img-fluid-testimonio{
+    @include sizes(550px, 400px)
+}
+.nombre1{
+    color: white;
+}
+
+.testimonio1 p{
+    @extend .nombre1
+}
+
+.titulotestimonio{
+   @include titulotestimonio
 }
 
 .testimonio1{
