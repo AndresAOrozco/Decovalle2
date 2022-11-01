@@ -1,7 +1,9 @@
-.nav-link:hover{
+.nav-link{
+    &:hover{
     background-color: white;
     color: black;
     transition: all 0.6s ease-in-out;
+    }
 }
 
 p{
@@ -114,6 +116,8 @@ h1 {
         padding: 0;
     }
 }
-section h2{
+section{
+    h2{
     color: white;
+    }
 }
