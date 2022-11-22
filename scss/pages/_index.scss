@@ -7,13 +7,15 @@
 }
 
 p{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
     font-weight: bold;
 }
 body{
     background-image: linear-gradient(black, white);
 }
 h1 {
-    padding: 3rem 3rem 3rem 1.5rem;
+    padding: 3rem 3rem 3rem 0;
     color: white;
     font-size: 1.5em;
 }
@@ -55,7 +57,7 @@ h1 {
         width: 450px;
     }
     .banner p{
-        padding-right: 7rem;
+        padding-right: 10rem;
     }
     .productos p{
         padding-right: 1rem;
@@ -106,7 +108,7 @@ h1 {
         width: auto;
     }
     .banner p{
-        padding: 0
+        padding: 1rem 0 0 0;
     }
     .img-fluid-productos{
         height: auto;

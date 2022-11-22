@@ -1,9 +1,9 @@
 @mixin titulotestimonio{
-    display: inline-block;
     padding: 2rem 2rem 2rem 0;
     color: whitesmoke;
     background-color: grey;
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 @mixin sizes($width, $height)
